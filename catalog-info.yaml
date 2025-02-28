@@ -1,0 +1,21 @@
+name: My Example Service
+description: This is an example service for demonstration purposes.
+tags:
+  - example
+  - demo
+  - backend
+annotations:
+  backstage.io/tech-stack: Node.js
+  backstage.io/roadmap: https://example.com/roadmap
+  backstage.io/support: https://example.com/support
+links:
+  - title: GitHub Repository
+    url: https://github.com/ocp-rhdh-poc/example-service
+    icon: github
+  - title: Documentation
+    url: https://github.com/ocp-rhdh-poc/docs
+    icon: docs
+metadata:
+  owners:
+    - user:example-user
+  lifecycle: production
