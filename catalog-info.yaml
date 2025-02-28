@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-service
+  annotations:
+    github.com/project-slug: ocp-rhdh-poc/example-service
+spec:
+  type: other
+  lifecycle: unknown
+  owner: test-group
